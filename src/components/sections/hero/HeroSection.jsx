@@ -1,14 +1,15 @@
+import HeroContent from "./HeroContent";
+import HeroImage from "./HeroImage";
+
 const HeroSection = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center">
-      <div>
-        <h1 className="text-6xl font-bold">
-          Rahul Baghel
-        </h1>
+    <section className="min-h-screen px-8">
+      <div className="max-w-7xl mx-auto min-h-screen flex items-center justify-between">
 
-        <p className="mt-4 text-xl">
-          Java Full Stack Developer
-        </p>
+        <HeroContent />
+
+        <HeroImage />
+
       </div>
     </section>
   );
