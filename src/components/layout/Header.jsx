@@ -4,10 +4,12 @@
  * Visible on all public pages.
  */
 
+import Navbar from "./Navbar";
+
 const Header = () => {
   return (
     <header>
-      <h2>DevFolio CMS</h2>
+      <Navbar />
     </header>
   );
 };

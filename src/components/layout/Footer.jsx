@@ -6,8 +6,10 @@
 
 const Footer = () => {
   return (
-    <footer>
-      <p>© 2026 Rahul Portfolio CMS</p>
+    <footer className="border-t py-6 text-center">
+      <p>
+        © 2026 Rahul Portfolio CMS
+      </p>
     </footer>
   );
 };
